@@ -1,0 +1,27 @@
+.header-conteiner {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.conteiner__perfil {
+    width: 20%;
+    border-radius: 50%;
+}
+
+.conteiner__desc {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.desc-nome {
+    font-size: 1.375rem;
+    font-weight: 700;
+}
+
+.desc-consulta__type {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--color-text-secondary);
+}

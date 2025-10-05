@@ -1,8 +1,8 @@
 /* ===== CONTAINER DO FAB ===== */
 .fab-container {
   position: fixed;
-  bottom: 5.5rem; /* flutuante sobre o conteúdo */
-  right: 1.5rem;
+  bottom: 4.5rem; /* flutuante sobre o conteúdo */
+  right: 0.5rem;
   z-index: 1000;
 }
 

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url(./reset.css);
-@import url(./header.css);
+@import url(./footer.css);
+@import url(./home.css);
 @import url(./today.css);
 @import url(./menu-expansivel.css);
 
@@ -28,11 +29,19 @@ body {
     font-family: var(--font-primary);
     color: var(--color-text-primary);
     font-size: 16px;
-    padding: 1rem;
+    
 }
 
 a {
     text-decoration: none;
+}
+
+.main-conteiner {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    margin-bottom: 20vw;
 }
 
 

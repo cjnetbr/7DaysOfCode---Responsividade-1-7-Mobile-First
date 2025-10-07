@@ -104,3 +104,30 @@
     background-color: var(--color-btn-primary);
     color: var(--color-text-alternative);
 }
+
+@media screen and (min-width: 768px) {
+    .conteiner-cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding: 0 1.25rem;
+    }
+
+    .schendule-title {
+        padding: 0 1.25rem;
+    }
+
+    .conteiner-card {
+        width: 44vw;
+    }
+
+    .btn{
+        font-size: 0.875rem;
+    }
+
+   
+}
+
+

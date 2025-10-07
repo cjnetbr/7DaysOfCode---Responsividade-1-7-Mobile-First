@@ -25,3 +25,14 @@
     font-weight: 400;
     color: var(--color-text-secondary);
 }
+
+@media screen and (min-width: 768px) {
+    .conteiner__perfil {
+    width: 3.5rem;
+    height: 3.5rem;
+    }
+
+    .home-conteiner {
+        padding-top: 2rem;
+    }
+}

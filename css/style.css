@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url(./reset.css);
-@import url(./footer.css);
+@import url(./header.css);
 @import url(./home.css);
 @import url(./today.css);
+@import url(./footer.css);
 @import url(./menu-expansivel.css);
 
 
@@ -43,6 +44,14 @@ a {
     padding: 1rem;
     margin-bottom: 20vw;
 }
+
+@media screen and (min-width: 1440px) {
+    .main-conteiner {
+        margin-left: 20vw;
+    }
+}
+
+
 
 
 

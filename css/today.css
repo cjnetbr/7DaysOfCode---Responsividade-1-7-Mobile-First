@@ -1,4 +1,3 @@
-
 .schendule{
     margin-top: 1.5rem;
 }
@@ -126,8 +125,30 @@
     .btn{
         font-size: 0.875rem;
     }
+}
 
-   
+@media screen and (min-width: 1440px) {
+    .conteiner-cards{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2rem;
+        padding: 0 2.5rem;
+    }
+    
+    .conteiner-card{
+        width: 22vw;
+
+    }
+
+    .card-perfil{
+        width: 3rem;
+        height: auto;
+    }
+    .card-perfil__nome{
+        font-size: 1.125rem;
+        
+    }
 }
 
 

@@ -33,7 +33,7 @@
     color: var(--color-btn-primary);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 768px) {
     .nav-menu {
         display: flex;
         justify-content: center;

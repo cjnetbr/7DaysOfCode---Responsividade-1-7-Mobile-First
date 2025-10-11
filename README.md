@@ -6,9 +6,9 @@ Este projeto foi desenvolvido como parte do evento #7DaysOfCode da Alura, com o 
 
 O **Desafio 7Day** é uma iniciativa que visa aprimorar as habilidades de design e desenvolvimento web em um curto período de tempo. O objetivo é construir uma página funcional, com uma excelente experiência de usuário, utilizando as melhores práticas de design e tecnologias modernas.
 
-**Sobre o desafio** projeto será o seguinte: uma clínica médica te contratou para desenvolver uma página responsiva para que seus médicos e médicas contratados possam ter controle sobre todas suas consultas agendadas, sejam elas presenciais ou remotas.
+**Sobre o desafio** projeto: Desenvolver uma página responsiva para que médicos possam ter controle sobre todas suas consultas agendadas, sejam elas presenciais ou remotas.
 
-## praticas, conceitos e abordagens:
+## Praticas, conceitos e abordagens:
 
 - Transformação de um layout do Figma em código
 - Mobile First

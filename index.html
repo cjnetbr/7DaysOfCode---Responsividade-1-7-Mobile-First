@@ -244,6 +244,39 @@
             </div>
         </section>
     </main>
+
+    <seciton class="conteiner-cadastro">
+        <div class="conteiner-titulo">
+            <h2 class="cadastro-titulo">Cadastro de Pacientes</h2>
+            <p class="cadastro-subtitulo"> Para agendar uma consultar preencha o formulário abaixo.</p>
+        </div>
+        <form class="form-cadastro" action="" method="post">
+            <label for="">
+                Nome do paciênte:
+                <input type="text" name="nome-paciente" id="paciente" placeholder="Nome do paciente" class="input" required>
+            </label>
+            <label for="">
+                Tipo de consulta:
+                <select name="tipo" id="tipo-consulta" class="select">
+                    <option value="remota" selected>Consulta remota</option>
+                    <option value="local">Consulta no local</option>
+                </select>
+            </label>
+            <label for="">
+                Data da Consulta:
+                <input type="date" name="data" id="data" class="input" required>
+            </label>
+            <label for="">
+                Horario da Consulta:
+                <input type="time" name="hora" id="hora" class="input" required>
+            </label>
+            <label for="">
+                Observações:
+                <input type="text" name="observações" id="observacoes" placeholder="Observações" class="input">
+            </label>
+            <button type="submit" class="btn btn-large">Salvar</button>
+        </form>
+    </seciton>
     <footer class="footer-conteiner">
         <nav class="nav-menu">
             <div class="nav-menu__item">

@@ -3,6 +3,10 @@
         display: none;
     }
 
+    .conteiner-cadastro{
+        display:none;
+    }
+
 }
 
 @media screen and (min-width: 768px){
@@ -10,11 +14,15 @@
         display: none;
     }
 
+    .conteiner-cadastro{
+        display:none;
+    }
+
 }
 
 
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1366px){
     .header-conteiner{
         display: flex;
         background-color: var(--color-background);
@@ -62,5 +70,8 @@
     .footer-conteiner{
         display: none;
     }
-    
+
+    .fab-container{
+        display: none;
+    }
 }

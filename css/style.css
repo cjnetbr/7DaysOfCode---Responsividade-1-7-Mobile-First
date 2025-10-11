@@ -5,6 +5,7 @@
 @import url(./today.css);
 @import url(./footer.css);
 @import url(./menu-expansivel.css);
+@import url(./cadastro.css);
 
 
 *{
@@ -45,10 +46,13 @@ a {
     margin-bottom: 20vw;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1366px) {
     .main-conteiner {
         margin-left: 20vw;
+        margin-bottom: 3rem;
     }
+
+
 }
 
 
